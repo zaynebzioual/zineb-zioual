@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+  
+  background:linear-gradient(#4B9168 0, #C0DA6A,#F0CC8E,#CCD3C0);
+  padding: 100px;
+  margin: 100px;
+  display: grid;
+  height: 50px;
+  width: 50px;
+  place-items: center;
+}
+    nav {
+  background-color: #ece0c0;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black ;
+  padding: 16px 180px;
+}
+
+nav ul li a:hover {
+  color: #666;
+}
+
+.container {
+  background-color:linear-gradient(#4B9168 0, #C0DA6A,#F0CC8E,#CCD3C0);; 
+    margin-top: 20 px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.box {
+    width: 30%;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align:left;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
+  button {
+ appearance: none;
+ background-color: transparent;
+ border: 0.125em solid #1A1A1A;
+ border-radius: 0.9375em;
+ box-sizing: border-box;
+ color: #3B3B3B;
+ cursor: pointer;
+ display: inline-block;
+ font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+ font-size: 16px;
+ font-weight: 600;
+ line-height: normal;
+ margin: 0;
+ min-height: 3.75em;
+ min-width: 0;
+ outline: none;
+ padding: 1em 2.3em;
+ text-align: center;
+ text-decoration: none;
+ transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ will-change: transform;
+}
+
+button:disabled {
+ pointer-events: none;
+}
+
+button:hover {
+ color: #fff;
+ background-color: #1A1A1A;
+ box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+ transform: translateY(-2px);
+}
+
+button:active {
+ box-shadow: none;
+ transform: translateY(0);
+}
+
+.card {
+  margin-top: 100px;
+  padding: 100px;
+  width: 300px;
+  height: 500px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+};
+
+</style>
+<body>
+    <nav>
+        <ul>
+          <li><a href="home.html">Accueil</a></li>
+            <li><a href="food.html">recettes</a></li>
+          <li><a href="programme.html">programmes sportifs</a></li> 
+           <li><a href="login1.html">login</a></li>
+        </ul>
+      </nav>
+
+      <center>
+      <div class="card">
+        <h1>pull programmes</h1>
+      <div class="container">
+            <div><img src="./image/promme photo push .jpeg" height="300px" width="300px">
+            <a href="pullday.html"><button>go</button></a>
+          </div>
+          </div>
+          
+      </div>
+
+      <div class="card">
+        <h1>push programmes</h1>
+      <div class="container">
+            <div><img src="./image/pull programme 1.jpeg" height="300ms" width="300px">
+            <a href="push.html"><button>go</button></a>
+          </div>
+          </div>
+          
+      </div>
+
+
+
+      <div class="card">
+        <h1>arm programmes</h1>
+       <div class="container">
+            <div><img src="./image/arm photo.jpeg" height="300px" width="300px">
+            <a href="armday.html"><button>go</button></a>
+          </div>
+          </div>
+          
+      </div>
+
+
+      <div class="card">
+        <h1>leg programmes</h1>
+       <div class="container">
+            <div><img src="./image/legphoto.jpeg" height="300px" width="300px">
+            <a href="legday.html"><button>go</button></a>
+          </div>
+    
+          
+      </div>
+    </center>
+
+</body>
+</html>
